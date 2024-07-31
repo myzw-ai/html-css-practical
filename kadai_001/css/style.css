@@ -1,0 +1,135 @@
+/* pc,スマホ共通スタイル */
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family:"Noto Sans Japanese";
+    font: color #000;
+    font-size: 18px;
+}
+
+#menu{
+    font-size: 34px;
+}
+h1,h2{
+    font-size: 34px;
+}
+h3{
+    font-size: 24px;
+}
+#copyright{
+    font-size: 18px;
+}
+
+/* ヘッダー */
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+    max-width: 960px;
+}
+
+/* MyProfileとナビゲーション */
+h1{
+    border: solid #000 2px;
+    padding: 0 20px;
+    font-weight: bold;
+    margin: 0 0 0 20px;
+}
+
+#menu{
+    display: flex;
+}
+
+#menu li{
+    list-style: none;
+    display: inline ;
+    font-weight: bold;
+    margin: 20px;
+}
+#menu a{
+    text-decoration-line: none;
+}
+a:link{
+    color: #000;
+}
+a:visited{
+    color: gray;
+}
+a:hover{
+    color: #76a0ae;
+}
+
+/* メイン画像 */
+.main-img{
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* About */
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 30px auto;
+    width: 100%;
+}
+
+#pf-img{
+    border-radius: 50%;
+}
+
+.about-pf{
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* works */
+.works{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+.work1,.work2,.work3{
+    margin: 0 10px;
+    padding-bottom: 60px;;
+}
+
+/* フッター */
+footer p{
+    text-align: center;
+    padding-bottom: 20pxS;
+}
+
+/* スマホ横幅が767pxまでの場合 */
+@media (max-width:767px) {
+    h1{
+        font-size: 28px;
+    }
+
+    h2{
+        padding: 30px 0 20px;
+    }
+
+    .menu li{
+        margin: 0 10px;
+    }
+
+    .menu a{
+        font-size: 21px;
+    }
+
+    .work1,.work2,.work3{
+        width: 100%;
+        text-align: center;
+        padding-bottom: 40px;
+    }   
+}
