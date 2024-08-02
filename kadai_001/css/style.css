@@ -9,7 +9,6 @@ body{
     font-family:"Noto Sans Japanese";
     font: color #000;
     font-size: 18px;
-    max-width: 100%;
 }
 
 #menu{
@@ -69,16 +68,15 @@ a:hover{
 /* メイン画像 */
 .main-img{
     margin: 0 auto;
-    max-width: 100%;
+    width: 100%;
 }
 
 /* About */
 #about{
     width: 100%;
 }
-
 h2{
-    justify-content: center;
+    text-align: center;
 }
 
 .about{
@@ -114,6 +112,7 @@ h2{
     padding-bottom: 60px;
     width: 25%;
 }
+
 .works img{
     width: 100%;
 }
@@ -130,6 +129,9 @@ footer p{
         width: 100%;
     }
 
+    #pf-img{
+        text-align: center;
+    }
 
     h1{
         font-size: 28px;
