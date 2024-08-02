@@ -52,6 +52,11 @@ h1{
     font-weight: bold;
     margin: 20px;
 }
+
+.header a{
+    text-decoration-line: none;
+}
+
 #menu a{
     text-decoration-line: none;
 }
