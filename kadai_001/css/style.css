@@ -125,13 +125,13 @@ footer p{
 }
 
 /* スマホ横幅が767pxまでの場合 */
-@media (max-width:767px) {
+@media (max-width:767px){
     .main-img{
         width: 100%;
     }
-
+    
     #pf-img{
-        text-align: center;
+        margin: auto;
     }
 
     h1{
