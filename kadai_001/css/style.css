@@ -71,6 +71,10 @@ a:hover{
     width: 100%;
     text-align: center;
 }
+img{
+    width: 100%;
+}
+
 
 /* About */
 #about{
@@ -126,10 +130,6 @@ footer p{
 
 /* スマホ横幅が767pxまでの場合 */
 @media (max-width:767px){
-    .main-img{
-        width: 100%;
-    }
-    
     #pf-img{
         margin: auto;
     }
